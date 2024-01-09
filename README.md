@@ -21,3 +21,21 @@
 9) Process scheduling techniques
 
 10) Partitioning
+
+11) Questions - Answers
+
+## Computer Hardware
+ 
+ 1) The motherboard and its components
+
+ 2) Computer cooling system
+
+ 3) BIOS and CMOS battery
+
+ 4) ESD
+
+ 5) Power supply
+
+ 6) Processor
+
+ 7) Questions - Answers
