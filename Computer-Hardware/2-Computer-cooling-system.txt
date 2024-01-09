@@ -1,0 +1,17 @@
+2) Computer cooling system
+
+
+-----------------------------------
+Computer cooling system:
+  - is an active or passive cooling system designed to dissipate excessive heat generated through a PC;
+
+Types:
+  1) Fans:
+    - an active cooling system;
+    - they use energy to run, thus enabling the air to circulate;
+
+  2) Heat sinks:
+    - a passive cooling system;
+    - their function is to dissipate the heat from the element they have been fixed to;
+
+More - https://www.coolerguys.com/blogs/news/what-are-the-types-of-cooling-system-in-computer

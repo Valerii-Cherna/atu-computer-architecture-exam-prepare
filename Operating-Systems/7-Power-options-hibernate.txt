@@ -1,0 +1,31 @@
+7) Power options e.g. hibernate
+
+
+-----------------------------------
+Power options:
+  - we can choose what pressing the power button on the computer should do and configure the monitor;
+  - and computer power to be reduced after a specified period of inactivity;  
+
+1) Hibernate:
+  - is a mode that saves the current state of the computer and shuts it down;
+  - When started again, it restores to the same state, but without consuming power in the meantime;
+  
+2) Sleep:
+  - uses little power;
+  - Your computer technically stays on, but all actions on your computer are stopped;
+  - any open documents and applications are out in memory;
+  - You can quickly resume normal operation within a few seconds;
+
+3) Power Plans:
+  - There are three power plans that can be configured and selected depending on the current need:
+    - Power Saver;
+    - Balanced;
+    - High Performance;
+
+4) Standby:
+  - is a old version of Sleep mode;
+
+5) Turn on Fast Startup:
+  - places the system into hibernation during shutdown so that the system can boot more quickly;   
+
+More - https://www.dell.com/support/kbdoc/en-us/000132056/shut-down-sleep-hibernate-or-change-the-power-plan-in-windows-10

@@ -1,0 +1,43 @@
+6) Processor
+  - Multicore
+  - Hyperthreading
+  - Throttling
+  - Fetch execute cycle
+
+
+-----------------------------------
+Processor:
+  
+Multicore:
+  - has multiple processors within a single package;
+  
+  Dual Core CPU - 2 CPUs inside a single chip;
+  Triple Core CPU - 3 CPUs inside a single chip;
+  Quad Core CPU - 4 CPUs inside a single chip;
+  Hexa Core CPU - 6 CPUs inside a single chip;
+  Octa Core CPU - 8 CPUs inside a single chip;
+
+Hyperthreading:
+  - is a feature of some processors that allows a single processor to run threads in parallel;
+
+Multithreading:
+  - is a feature of an application that allows it to send multiple threads at the same time;
+
+Throttling:
+  - is a process of modifying the operating characteristics of a processor based on current conditions;
+  - Used in low memory conditions to slow down the processing of I/O memory requests;
+  - Processors or the OS can shut down unused cores in multi-core systems to conserve energy;
+
+Fetch execute cycle:
+  - is the basic operation cycle of a computer;
+
+  Store - The newly processed is written back into the memory location on the HDD or SSD
+  Fetch - The CPU retrieves instructions from a system hard drive or solid-state drive and stores them in a register location;
+  Decode - The CPU determines which system components are required in the execution of the instruction, outlining parameters for a successful execution;
+  Execute - The CPU assigns specific actions to the relevant system component in order to carry out the initial program instructions processing the actual data;  
+
+  E-Time: Execute -> Store
+  I-Time: Fetch -> Decode
+
+  More - https://medium.com/@gabedbatista/cpu-how-it-works-787ba07b9982  
+  

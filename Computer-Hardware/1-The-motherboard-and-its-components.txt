@@ -1,0 +1,23 @@
+1) The motherboard and its components
+
+
+-----------------------------------
+Motherboard:
+  - is the main printed circuit board(PCB);
+  - PCB comes in multiple layers with highways of wires(bus systems) in the layers;
+  - These highways of wires are called traces;
+  - Layers enable complexity while minimizing any interference;
+  - All devices in the computer system will either be part of the motherboard or connected to it;
+
+Components of motherboard:
+  - Processor interface;
+  - Memory modules;
+  - Expansion Slots;
+  - Onboard components;
+  - Faceplate connectors;
+  - Onboard internal connectors;
+  - BIOS Chip;
+  - CMOS Battery;
+  - Chipset;
+
+More - https://www.techtarget.com/whatis/definition/motherboard

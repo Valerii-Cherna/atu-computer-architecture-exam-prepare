@@ -1,0 +1,113 @@
+Power Supply:
+
+1) What is the main aim of the computer power supply?
+  - converts AC(alternating current) current to DC(direct current) current;
+
+
+2) You have a desktop PC that you have been using for 3 years in the United States.
+You are going on a study-abroad program for 1 semester and want to take your computer with you.
+After some research, you have found out that the country you are going to uses a different voltage than that in the United States.
+What should you do so that the computer can be compatible with the electrical power in Europe?
+State your reasons why. 
+  - check your power supply on PC for multi-voltage;
+  - if it is good for 100-250V, 50-60Hz, you have to change only plug adapter;
+  - because in Europe we have 220v and in USA we have 110v;
+
+
+3) You have a desktop computer that you want to upgrade. 
+You add several internal components and external components.
+You realize that you need to ensure that your power supply can support all the new devices.
+What should you do?  
+  - summarize the power consumption of all components and compare with the power value of the power supply;
+
+
+4) The yellow wire connected to a power supply carries 12V.
+If the power supply provides 120W of power to the yellow wire, how much current is passing through the yellow wire?
+  I = P / V = 120 / 12 = 10A
+
+
+5) There are 3.3V passing through an orange power supply cable, and there are 0.05 ohms of resistance in the orange wire.
+How much power is supplied to the orange wire by the power supply?  
+  P = V^2 / R = 3.3^2 / 0.05 = 10.89 / 0.05 = 217.8W
+
+
+6) A wire from the power supply is carrying 400W of power and 24A of current.
+Which color(s) of cable is the wire?
+  V = P / I =  400 / 24 = 16.6A
+  This is a yellow cable;
+  
+
+-----------------------------------
+
+1) Describe the components of the CPU and how the Fetch Execute Cycle works.
+Use diagrams to illustrate your point.
+  - is the basic operation cycle of a computer;
+
+  Store - The newly processed is written back into the memory location on the HSS or SSD;
+  Fetch - The CPU retrieves instructions from a system hard drive or solid-state drive and stores them in a register location;
+  Decode - The CPU determines which system components are required in the execution of the instruction, outlining parameters for a successful execution;
+  Execute - The CPU assigns specific actions to the relevant system component in order to carry out the initial program instructions processing the actual data;
+  
+  E-Time: Execute -> Store
+  I-Time: Fetch -> Decode
+
+
+2) What are the following processor features?  
+  2.1) Multicore processor:
+    - has multiple processors within a single package; 
+
+  2.2) Hyperthreading:
+    - is a feature of some processors that allows a single processor to run threads in parallel;
+
+  2.3) Throttling
+    - is a process of modifying the operating characteristics of a processor based on current conditions;
+
+
+3) What are the function of the expansions slots on the motherboard?
+Give examples.
+  - Expansion slots on a motherboard serve the purpose of allowing additional components to be added to a computer system;
+
+  PCI - network cards, sound cards, video cards;
+  PCIe - graphics cards, SSDs, Wi-Fi adapters;
+  RAM - RAM modules;
+  ISA - network cards;
+  M.2 - SSDs, Wi-Fi/Bluetooth cards; 
+
+4) USB devices can be classified as self-powered or bus-powered.
+Explain what is meant be each of these classifications.  
+  Bus-Powered: is one that draws its power directly from the USB bus to which it is connected;
+  Self-Powered: is one that has its own external power source, independent of the USB bus;
+
+
+5) What is the main aim of the computer power supply?
+  - converts AC current to DC current
+
+
+6) You have a desktop PC that you have been using for 3 years in the United States.
+You are going on a study-abroad program for 1 semester and want to take your computer with you.
+After some research you have found out that the country you are going to uses different voltage than that in the United States.
+What should you do so that the computer can be compatible with the electrical power in Europe?
+State your reasons why?
+  - check your power supply on your PC for multi-voltage;
+  - if it is good for 100-250V and 50-60Hz, you have to change only plug adapter;
+  - because in Europe we have 220V and in USA we have 110V;
+
+
+7) The yellow wire connected to a power supply carries 12V.
+If the power supply provides 120W of power to the yellow wire, how much current is passing through the yellow wire?
+  I = P / V = 120 / 12 = 10A 
+
+
+8) Differentiate between a brownout and a surge outlining the impact on the computer?
+  - Brownout involves a reduction in voltage, leading to potential performance issues and hardware damage;
+  - Surge involves a sudden increase in voltage, which can cause immediate damage to electronic components;
+
+
+9) Electrostatic discharge (ESD) is the release of static electricity when two objects come into contact.
+It has the capability of causing enough damage to the components inside your computer to render it completely inoperable.
+How can you protect the computer system from ESD?
+  - Use an Anti-Static Wrist STrap;
+  - Work on an ESD-Safe surface;
+  - Handle components carefully;
+  - Ground yourself before touching components;
+  - Use ESD-Safe tools;

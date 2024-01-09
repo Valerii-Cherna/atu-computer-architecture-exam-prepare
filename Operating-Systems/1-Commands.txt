@@ -1,0 +1,120 @@
+1) Commands such as:
+  - ifconfig;
+  - cd;
+  - head;
+  - chmod;
+  - cat;
+  - ls; 
+
+
+-----------------------------------
+ifconfig
+  - configures or displays network interface parameters for a network using TCP/IP;
+
+Syntax:
+  $ ifconfig Interface [ AdderessFamily [ Address [ DestinationAdress]] [Parameters...]]
+
+Example:
+  1) Show sl1 interface
+    $ ifconfig sl1
+
+More - https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/cmds/aixcmds3/ifconfig.htm  
+
+
+-----------------------------------
+cd
+  - move from your present directory to another directory;
+
+Examples:
+  1) Change to your home directory:
+    $ cd
+
+  2) Change to the /usr/include directory:
+    $ cd /usr/include
+
+  3) Go down one level of the directory tree to the sys directory:
+    $ cd sys    
+
+
+-----------------------------------
+head
+  - to write to standard output the first few lines of each of the specified files or of the standart input;
+
+Example:
+  1) Display the first five lines of the Test file:
+    $ head -5 Test  
+
+
+-----------------------------------
+chmod
+  - modifies the mode bits and the extended access control list(ACLs) of the specified files or directories;
+ 
+User level permissions:
+  u - grant permission to a user;
+  g - grant permission to a group(a group of users)
+  o - grant permission to others
+
+  - if this option is empty, permissions will be applied to the logged-in user;
+
+File Level permissions:
+  r - grants read permission;
+  w - grants write permission;
+  x - grants execute permission;
+
+Examples:
+  1) Add a type of permission to several files(chap1, chap2)
+    $ chmod g+w chap1 chap2
+
+  2) Make several permission changes at once:
+    $ chmod go-w+x mydir
+
+  3) Use absolute mode form of the chmod command:    
+    $ chmod 644 text
+
+More - https://www.freecodecamp.org/news/file-permissions-in-linux-chmod-command-explained/   
+
+
+-----------------------------------
+cat
+  - reads each File parameter in sequence and writes it to standard output;
+
+Examples:
+  1) Display a file at the workstation:
+    $ cat notes
+
+  2) Concatenate several files(section1.1 section1.2 section1.3) into section1 file:
+    $ cat section1.1 section1.2 section1.3 > section1  
+
+  3) Add text from section1.4 file to the end of a section1 file:
+    $ cat section1.4 >> section1  
+
+More - https://www.ibm.com/docs/nl/aix/7.2?topic=c-cat-command
+
+
+-----------------------------------
+ls
+  - displays the contents of a directory;
+
+Examples:
+  1) Display all contents of a current directory:
+    $ ls
+
+  2) Display all contents with extended attributes are set for the files in the current directory:
+    $ ls -U 
+
+  3) Display only directories
+    $ ls -d */  
+
+  4) Display the contents of the current directory with its subdirectories:
+    $ ls *  
+
+  5) Display the contents of the current directory with their sizes:
+    $ ls -s 
+
+  6) Display the contents of the current directory with columns including:
+    $ ls -l
+
+  7) Display the contents of the current directory with columns and sizes including:
+    $ ls -lh        
+
+More - https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/ 

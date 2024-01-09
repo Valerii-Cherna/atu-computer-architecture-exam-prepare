@@ -1,0 +1,45 @@
+5) Power supply
+  - replacement
+  - moving from Europe to the USA
+  - UPS
+  - Calculating current, voltage, power
+
+-----------------------------------
+Power supply:
+  - converts AC(alternating current) current to DC(direct current) current;
+
+Replacement:
+  - Unplug and open your computer;
+  - Disconnect the old power supply;
+  - Remove the old power supply;
+  - Install the new power supply;
+  - Connect the new power supply;
+  - Close and test your computer;
+
+Moving from Europe to the USA:
+  - check the power supply for multi-voltage;
+  - if it is good for 100-250V, 50-60Hz, you have to change only plug adapter;
+
+  USA - 110v
+  Europe - 220v 
+
+UPS:
+  - An uninterruptible power supply(UPS) is a type of continual power system that provides automated backup electric power;
+  - to a load when the input power source or mains power fails;
+
+Basic Units:
+  Voltage(V) - measured in volts(V);
+  Current(I) - measured in amperes(A);
+  Power(P) - measured in watts(W);
+  Resistance(R) - measured in ohms(Ω);
+
+Ohm's Law:
+  Voltage(V) = Current(I) * Resistance(R)
+  Power(P) = Voltage(V) * Current(I)
+  Power(P) = Voltage(V)^2 / Resistance(R)
+  Current(I) = Power(P) / Voltage(V)  
+
+Example:
+  P = 100W
+  V = 9V
+  I = P / V = 100 / 9 = 11.11A

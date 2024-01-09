@@ -1,0 +1,20 @@
+3) BIOS and CMOS battery
+
+
+-----------------------------------
+BIOS:
+  - is firmware stored in a chip on your computer's motherboard;
+  - it is the first program that runs when you turn on your computer;
+  - Performs the POST(power-on self-test), which initializes and test your computer's hardware;
+  - Provides a simple interface for configuring your computer's hardware;
+    
+CMOS:
+  - When you make changes to your BIOS configuration, the settings are not stored on the BIOS chip itself;
+  - Instead, they are stored on a special memory chip, which is called CMOS;
+  - It holds a small amount of data, usually 256 bytes;
+  - CMOS saves information about:
+    - types of disk drives are installed;
+    - the current date and time of your system clock;
+    - your computer's boot sequence;
+
+More - https://www.computerhope.com/issues/ch001360.htm

@@ -1,0 +1,36 @@
+5) The boot process
+
+
+-----------------------------------
+Booting:
+  - is the process of loading an operating system;
+  - It's the process that starts when we turn on the computer(using the power button or by a software command);
+  - and ends when the OS is loaded into the memory;
+
+Exsplane step-by-step:
+  1) Running BIOS:
+    - When we turn on the computer, there is no program inside the computer's main memory(RAM);   
+    - CPU looks for another program called the BIOS, and runs it;
+    - BIOS is a firmware that located on the motherboard and is run by the CPU to start the booting sequence;
+
+  2) Running POST:
+    - After the BIOS starts running, it starts a process called POST(Power-On Self-Test);
+    - which tests all the hardware devices and makes sure there are no issues;
+    - If POST finds some issues in the hardware, the booting process stops and the computer fails to boot;
+
+  3) Loading MBR to RAM:
+    - After running POST, the BIOS proceeds to load the MBR(Master Boot Record) from the bootable device into RAM;
+    - The MBR consists of 512 or more bytes located at the very beginning sector of the bootable device(HDD, SSD, flash drive);
+
+  4) Running the Bootloader:
+    - After loading the MBR into RAM, the BIOS runs the first instruction loaded from the MBR;
+    - The first instruction is typically the bootstrap code, aka the bootloader;
+    - which is a program written in machine code that loads the OS into RAM;
+    - Each operating system has its own bootloaders;
+
+  5) Running the OS:
+    - Once the OS is loaded into the memory, the OS starts running;
+    - Further, the OS starts its own initialization (which includes loading device drivers, setting up libraries, etc);
+    - Finally, when the OS initialization is finished, the OS starts a shell that displays a login prompt to the user;
+
+More - https://www.baeldung.com/cs/computer-boot-process

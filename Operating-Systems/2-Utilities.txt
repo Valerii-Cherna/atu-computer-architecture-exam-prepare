@@ -1,0 +1,68 @@
+2) Utilities such as:
+  - Startup;
+  - Disk clean up;
+  - chkdsk;
+  - Wake-On-LAN;
+  - defragmentation;
+  - msconfig;
+  - resource monitor;
+  - bitlocker;
+
+
+-----------------------------------
+Startup
+  - tab which displays some programs that can be enabled or disabled for startup;
+
+More - https://www.freecodecamp.org/news/how-to-change-startup-program-in-windows-7-8-and-10/
+
+
+-----------------------------------
+Disk cleanup
+  - helps free up space on your hard disk, creating improved system performance;
+  - searches your disk and then shows you temporary files, Internet cashe files, and unnecessary program files that you can safely delete;
+  
+More - https://www.ferris.edu/it/howto/diskcleanup.htm
+
+
+-----------------------------------
+chkdsk
+  - can find and repair bug-causing errors;
+  - scans your hard drive for file system errors;
+
+More - https://www.avast.com/c-chkdsk-windows
+
+
+-----------------------------------
+Wake-On-LAN
+  - wakes a device(PC, laptop, tablet) which is asleep and supports to be woken by Wake on LAN;
+
+More - https://apps.microsoft.com/detail/9NBLGGH51PB3?hl=en-us&gl=US
+
+
+-----------------------------------
+Defragmentation
+  - rearranges fragmented data so your disks and drives can work more efficiently;
+
+More - https://support.microsoft.com/en-us/windows/ways-to-improve-your-computer-s-performance-c6018c78-0edd-a71a-7040-02267d68ea90   
+
+
+-----------------------------------
+msconfig
+  - is a system utility designed to troubleshoot the Microsoft Windows startup process;
+  - It can disable or re-enable software, device drivers or Windows services that run at startup, and it can change boot parameters;
+
+More - https://www.dell.com/support/kbdoc/en-ie/000136771/what-does-the-msconfig-utility-do-in-windows-8-8-1-and-10-on-your-dell-pc
+
+
+-----------------------------------
+Resource monitor
+  - displays information about the use of hardware(CPU, memory, disk, network) and software(file handles and modules) resources in real time;
+
+More - https://en.wikipedia.org/wiki/Resource_Monitor
+
+
+-----------------------------------
+bitlocker
+  - provides encryption for entire volumes, addressing the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned devices;
+
+More - https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/  

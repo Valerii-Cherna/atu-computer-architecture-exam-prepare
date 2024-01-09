@@ -1,0 +1,17 @@
+3) How is your secondary storage organized
+
+
+-----------------------------------
+Secondary storage:
+  - is non-volatile storage used for long-term data storage;
+  - Data on secondary storage is typically organized into files and directories;
+
+  - The organization of secondary storage involves file systems;
+  - A file system is a method used by an OS to organize and store data on a storage device;
+  - It manages how data is stored, retrieved, and organized into files and directories;
+
+  - NFTS(Windows);
+  - ext4(Linux);
+  - APFS(macOS);
+
+More - https://www.geeksforgeeks.org/storage-structure-in-operating-systems/  

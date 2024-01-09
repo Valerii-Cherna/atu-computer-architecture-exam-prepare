@@ -1,0 +1,263 @@
+10) Partitioning:
+  - Dynamic partitioning;
+  - Paging;
+
+
+-----------------------------------
+Dynamic partitioning
+  - It is a part of the Contiguous allocation technique;
+  - It is used to alleviate the problem faced by Fixed Partitioning;
+  - In contrast with fixed partitioning, partitions are not made before the execution or during system configuration;
+
+  - Initially, RAM is empty and partitions are made during the run-time according to the process's need;
+  - instead of partitioning during system configuration;
+
+  - The size of the partition will be equal to the incoming process;
+
+  - The partition size varies according to the need of the process;
+  - so  that internal fragmentation can be avoided to ensure efficient utilization of RAM;
+
+  - The number of partitions in RAM is not fixed and depends on the number of incoming processes and the Main Memory's size;
+  
+  Advantages:
+    - No Internal Fragmentation;
+    - No restriction on the Degree of Multiprogramming;
+    - No Limitation on the Size of the Process;
+
+  Disadvantages:
+    - Difficult Implementation;
+    - External Fragmentation; 
+
+  More - https://www.geeksforgeeks.org/variable-or-dynamic-partitioning-in-operating-system/
+
+Example:
+  
+  1) Initial System:
+    OS     |  128K
+    Empty  |  896K
+  
+  2) Come P1 with 320K:
+    OS     |  128K
+    P1     |  320K
+    Empty  |  576K 
+
+  3) Come P2 with 224K:
+    OS     |  128K
+    P1     |  320K
+    P2     |  224K
+    Empty  |  352K 
+
+  4) Come P3 with 228K:
+    OS     |  128K
+    P1     |  320K
+    P2     |  224K
+    P3     |  228K
+    Empty  |  64K   
+
+  5) Come P4 with 128K:
+    - not enough room for the P4;
+    - eventually, each process is blocked;
+    - the OS swaps out P2;
+
+    OS     |  128K
+    P1     |  320K
+    Empty  |  224K
+    P3     |  228K
+    Empty  |  64K 
+
+    - and OS brings P4;
+    - another hole of 96K is created;
+    
+    OS     |  128K
+    P1     |  320K
+    P4     |  128K
+    Empty  |  96K
+    P3     |  228K
+    Empty  |  64K     
+
+    - eventually, each process is blocked;
+    - the OS swaps out P1;  
+
+    OS     |  128K
+    Empty  |  320K
+    P4     |  128K
+    Empty  |  96K
+    P3     |  228K
+    Empty  |  64K     
+    
+    - and OS brings P2;
+    - another hole of 96K is created;
+
+    OS     |  128K
+    P2     |  224K
+    Empty  |  96K
+    P4     |  128K
+    Empty  |  96K
+    P3     |  228K
+    Empty  |  64K  
+
+    - Compaction would produce a single hole of 256k;
+
+    OS     |  128K
+    P2     |  224K
+    P4     |  128K
+    P3     |  228K
+    Empty  |  256K  
+
+
+-----------------------------------
+Paging
+  - is a memory management scheme that eliminates the need for a contiguous allocation of physical memory;
+  - is a process of retrieving processes in the form of pages from the secondary storage into the main memory;
+  - The basic purpose of paging is to separate each procedure into pages;
+  - Additionally, frames will be used to split the main memory;
+  - This scheme permits the physical address space of a process to be non-contiguous;
+
+  More - https://www.geeksforgeeks.org/paging-in-operating-system/?ref=lbp
+
+Example:
+  
+  1) Fifteen Available Pages:
+
+    # Frame | Main memory
+          0 | Empty
+          1 | Empty
+          2 | Empty
+          3 | Empty
+          4 | Empty
+          5 | Empty
+          6 | Empty
+          7 | Empty
+          8 | Empty
+          9 | Empty
+         10 | Empty
+         11 | Empty
+         12 | Empty
+         13 | Empty
+         14 | Empty
+
+  2) Load Process A:
+
+    # Frame | Main memory
+          0 | A.0
+          1 | A.1
+          2 | A.2
+          3 | A.3
+          4 | Empty
+          5 | Empty
+          6 | Empty
+          7 | Empty
+          8 | Empty
+          9 | Empty
+         10 | Empty
+         11 | Empty
+         12 | Empty
+         13 | Empty
+         14 | Empty       
+
+  2) Load Process B:
+
+    # Frame | Main memory
+          0 | A.0
+          1 | A.1
+          2 | A.2
+          3 | A.3
+          4 | B.0
+          5 | B.1
+          6 | B.2
+          7 | Empty
+          8 | Empty
+          9 | Empty
+         10 | Empty
+         11 | Empty
+         12 | Empty
+         13 | Empty
+         14 | Empty       
+
+  3) Load Process C:
+
+    # Frame | Main memory
+          0 | A.0
+          1 | A.1
+          2 | A.2
+          3 | A.3
+          4 | B.0
+          5 | B.1
+          6 | B.2
+          7 | C.0
+          8 | C.1
+          9 | C.2
+         10 | C.3
+         11 | Empty
+         12 | Empty
+         13 | Empty
+         14 | Empty                     
+
+  4) Suppose that process B is swapped out:
+
+    # Frame | Main memory
+          0 | A.0
+          1 | A.1
+          2 | A.2
+          3 | A.3
+          4 | Empty
+          5 | Empty
+          6 | Empty
+          7 | C.0
+          8 | C.1
+          9 | C.2
+         10 | C.3
+         11 | Empty
+         12 | Empty
+         13 | Empty
+         14 | Empty      
+
+  5) Load Process D:
+
+    # Frame | Main memory
+          0 | A.0
+          1 | A.1
+          2 | A.2
+          3 | A.3
+          4 | D.0
+          5 | D.1
+          6 | D.2
+          7 | C.0
+          8 | C.1
+          9 | C.2
+         10 | C.3
+         11 | D.3
+         12 | D.4
+         13 | Empty
+         14 | Empty               
+
+  6) Page Tables:       
+    
+    Process A page table:
+      0 | 0
+      1 | 1
+      2 | 2
+      3 | 3
+
+    Process B page table:
+      0 | -
+      1 | -
+      2 | -
+      
+    Process C page table:
+      0 | 7
+      1 | 8
+      2 | 9
+      3 | 10  
+
+    Process D page table:
+      0 | 4
+      1 | 5
+      2 | 6
+      3 | 11
+      4 | 12
+
+    Free frame list:
+      13
+      14
+          

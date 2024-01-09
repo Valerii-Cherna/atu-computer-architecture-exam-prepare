@@ -1,0 +1,11 @@
+4) ESD
+
+
+-----------------------------------
+Electrostatic discharge(ESD):
+  - is the transfer of electrons from one object to another;
+  - Most electronic computer devices are sensitive to changes at less than 1.5 volts;
+  - When you work on the internal components of your computer;
+  - you may damage the components in the computer via ESD, and not even feel it;
+
+More - https://kb.iu.edu/d/aeoh

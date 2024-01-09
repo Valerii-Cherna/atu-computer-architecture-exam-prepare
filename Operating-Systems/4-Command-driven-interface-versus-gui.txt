@@ -1,0 +1,24 @@
+4) Command driven interface(CLI) versus GUI
+
+
+-----------------------------------
+CLI:
+  - lets users use command/written commands that associate directly with the terminal
+  - or console windows, which would allow them to interact directly with the OS;
+
+GUI:   
+  - lets users use graphics for interacting with the OS;
+  - In a GUI we have buttons, windows, scrollbars, pictures, etc;
+  - It is very intuitive yet simple to use, even for a newbie;
+
+Difference between CLI and GUI:
+  - GUI easier to understand and use;
+  - CLI consumes comparatively less memory;
+  - CLI works at a higher speed;
+  - CLI only requires a user's keyboard;  
+  - GUI can change or modify OS appearance;
+  - GUI uses graphics;
+  - GUI comes with menus;
+  - No typing errors or spelling mistakes can be avoided by CLI;
+
+More - https://byjus.com/gate/difference-between-cli-and-gui/

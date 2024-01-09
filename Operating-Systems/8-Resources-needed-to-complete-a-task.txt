@@ -1,0 +1,11 @@
+8) Resources needed to complete a task
+
+
+-----------------------------------
+Ask teacher
+
+Temporary answer:
+  - Main memory;
+  - CPU;
+  - Input;
+  - Output;

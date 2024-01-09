@@ -1,0 +1,11 @@
+6) What is the Windows registry
+
+
+-----------------------------------
+Windows registry:
+  - is a database of information, settings, options, and other values;
+  - for software and hardware installed on all versions of Microsoft Windows OS;
+  - When a program is installed, a new subkey is created in the registry;
+  - This subkey contains settings specific to that program, such as its location, version, and primary executable;
+
+More - https://www.computerhope.com/jargon/r/registry.htm
